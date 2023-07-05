@@ -1,0 +1,4 @@
+(test
+ (name Panda)
+ (preprocess
+  (pps ppx_inline_test)))

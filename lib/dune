@@ -1,0 +1,6 @@
+(library
+ (inline_tests)
+ (name Panda)
+ (libraries mebhir fmt)
+ (preprocess
+  (pps ppx_inline_test)))
